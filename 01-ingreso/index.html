@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Practicas - Inicio de sesión</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/water.css@2/out/dark.min.css">
+    <style>
+      select {
+        -moz-appearance: unset;
+        appearance: unset;
+      }
+
+      input, select {
+        width: 100%;
+        max-width: 300px;
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+  <body>
+    <form action="ingreso.php" method="post">
+      <h1>Iniciar sesión <a href="../">Volver</a></h1>
+      <input name="correo" placeholder="Introduce tu correo" />
+      <input name="clave" placeholder="Introduce tu contraseña" />
+      <button>Ingresar</button>
+    </form>
+  </body>
+</html>
